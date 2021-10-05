@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	logallrefupdates = false
+	precomposeunicode = true
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = file:///Users/aseahmed/Pictures/jbpm-server-7.59.0.Final-dist/bin/.kie-wb-playground/994c62e58ae863cb23bf649a1424a691
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/*
+	fetch = +refs/notes/*:refs/notes/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
